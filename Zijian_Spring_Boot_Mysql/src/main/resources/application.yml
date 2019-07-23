@@ -1,0 +1,16 @@
+server:
+  port: 8996
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.101.12.44:3306/zijian-test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: ........(Un secret)
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+

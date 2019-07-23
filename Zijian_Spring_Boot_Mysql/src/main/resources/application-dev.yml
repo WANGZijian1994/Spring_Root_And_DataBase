@@ -1,0 +1,7 @@
+server:
+  port: 8993
+
+personne:
+  name: Pierre
+  age: 25
+  password: PSV2107?
